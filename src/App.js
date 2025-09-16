@@ -1,3 +1,5 @@
+import React from "react";
+import { Mail, Instagram } from "lucide-react"; // icons
 import pic1 from "./asstes/2.png";
 import pic2 from "./asstes/3.png";
 import pic3 from "./asstes/1.png";
@@ -48,7 +50,6 @@ function App() {
           App Screenshots
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {/* Replace the src links with your own images in /public folder */}
           <img
             src={pic1}
             alt="App Screenshot 1"
@@ -67,9 +68,31 @@ function App() {
         </div>
       </div>
 
+      {/* Contact Section */}
+      <div className="mt-20 text-center px-6">
+        <h2 className="text-3xl font-bold mb-6">Contact Us</h2>
+        <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+          <a
+            href="mailto:wooshdotes@gmail.com"
+            className="flex items-center gap-2 px-6 py-3 border border-gray-700 rounded-xl hover:bg-gray-900 transition"
+          >
+            <Mail size={20} /> wooshdotes@gmail.com
+          </a>
+          <a
+            href="https://www.instagram.com/wooshdotes/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-6 py-3 border border-gray-700 rounded-xl hover:bg-gray-900 transition"
+          >
+            <Instagram size={20} /> @wooshdotes
+          </a>
+        </div>
+      </div>
+
       {/* Footer */}
       <footer className="mt-20 text-gray-600 text-sm mb-6">
-        © {new Date().getFullYear()} iBlokd. All rights reserved.
+        © {new Date().getFullYear()} iBlokd · Powered by Wooshdotes. All rights
+        reserved.
       </footer>
     </div>
   );
