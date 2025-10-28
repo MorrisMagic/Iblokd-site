@@ -91,7 +91,7 @@ function App() {
 
       {/* Footer */}
       <footer className="mt-20 text-gray-600 text-sm mb-6">
-        © {new Date().getFullYear()} iBlokd · Powered by Wooshdotes. All rights
+        © {new Date().getFullYear()} iBlokd · Powered by Youssef Habbachi. All rights
         reserved.
       </footer>
     </div>
