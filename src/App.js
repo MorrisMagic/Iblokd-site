@@ -73,13 +73,13 @@ function App() {
         <h2 className="text-3xl font-bold mb-6">Contact Us</h2>
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
           <a
-            href="mailto:wooshdotes@gmail.com"
+            href="mailto:youssefhabbachi10@gmail.com"
             className="flex items-center gap-2 px-6 py-3 border border-gray-700 rounded-xl hover:bg-gray-900 transition"
           >
             <Mail size={20} /> youssefhabbachi10@gmail.com
           </a>
           <a
-            href="https://www.instagram.com/wooshdotes/"
+            href="https://www.instagram.com/brolearncode/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 border border-gray-700 rounded-xl hover:bg-gray-900 transition"
