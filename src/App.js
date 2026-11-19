@@ -76,7 +76,7 @@ function App() {
             href="mailto:wooshdotes@gmail.com"
             className="flex items-center gap-2 px-6 py-3 border border-gray-700 rounded-xl hover:bg-gray-900 transition"
           >
-            <Mail size={20} /> wooshdotes@gmail.com
+            <Mail size={20} /> youssefhabbachi10@gmail.com
           </a>
           <a
             href="https://www.instagram.com/wooshdotes/"
@@ -84,7 +84,7 @@ function App() {
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 border border-gray-700 rounded-xl hover:bg-gray-900 transition"
           >
-            <Instagram size={20} /> @wooshdotes
+            <Instagram size={20} /> @brolearncode
           </a>
         </div>
       </div>
